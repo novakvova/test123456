@@ -21,12 +21,14 @@ namespace TestSiteMVC.Controllers
         {
             ViewBag.Message = "Your app description page.";
 
+            ViewBag.Message = "Test message";
             return View();
         }
 
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Test message";
 
             return View();
         }
