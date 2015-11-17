@@ -13,6 +13,7 @@ namespace TestSiteMVC.Controllers
             ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
             ViewBag.Branch = "Hello branch!";
             ViewBag.BranchMaste = "BranchMaste";
+            ViewBag.BranchMaste = "My Hello";
             return View();
         }
 
